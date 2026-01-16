@@ -1,0 +1,27 @@
+{
+  "name": "witness-guard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal recording and emergency-response system",
+  "scripts": {
+    "mobile": "pnpm --filter @witness-guard/mobile",
+    "service": "pnpm --filter @witness-guard/service",
+    "shared": "pnpm --filter @witness-guard/shared",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "clean": "pnpm -r clean"
+  },
+  "keywords": [
+    "safety",
+    "recording",
+    "emergency",
+    "legal-observer",
+    "witness"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
